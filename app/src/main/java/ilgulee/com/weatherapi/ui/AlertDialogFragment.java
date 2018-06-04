@@ -1,10 +1,12 @@
-package ilgulee.com.weatherapi;
+package ilgulee.com.weatherapi.ui;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.DialogFragment;
 import android.content.Context;
 import android.os.Bundle;
+
+import ilgulee.com.weatherapi.R;
 
 public class AlertDialogFragment extends DialogFragment {
   @Override
