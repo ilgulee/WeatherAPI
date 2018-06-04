@@ -111,7 +111,8 @@ public class CurrentWeather {
   }
 
   public double getTemperature() {
-    return temperature;
+
+    return Math.floor(temperature);
   }
 
   public void setTemperature(double temperature) {
